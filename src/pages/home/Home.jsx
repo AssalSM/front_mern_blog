@@ -20,11 +20,11 @@ const {posts} = useSelector(state => state.post)
           <h1 className="home-title">Welcome to english Blog</h1>
         </div>
   </div>*/}
-  <Sidebar categories={categories} />
+ {/*  <Sidebar categories={categories} />  */}
       <div className="home-latest-post">Latest Posts</div>
       <div className="home-container">
         <PostList posts={posts} />
-       {/*  <Sidebar categories={categories} /> */}
+        {/* <Sidebar categories={categories} /> */}
       </div>
       <div className="home-see-posts-link">
         <Link className="home-link" to="/posts">
