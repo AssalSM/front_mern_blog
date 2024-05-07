@@ -15,8 +15,8 @@ const Profile = () => {
   const [updateProfile, setUpdateProfile] = useState(false);
   const [file, setFile] = useState(null);
   const { id } = useParams();
-  const user  = useSelector(state => state.auth)
-  console.log(user)
+  const {user}  = useSelector(state => state.auth)
+ 
   const {posts} = useSelector(state => state.post)
     useEffect(() => {
       dispatch(fetchPosts(1));
@@ -25,7 +25,7 @@ const Profile = () => {
     dispatch(getUserProfile(id));
     window.scrollTo(0, 0);
   }, [id]);
-
+console.log(user);
   // Form Submit Handler
   const formSubmitHandler = (e) => {
     e.preventDefault();

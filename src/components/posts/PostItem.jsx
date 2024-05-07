@@ -11,7 +11,7 @@ const PostItem = ({ post }) => {
         <div className="post-item-info">
           <div className="post-item-author">
             <strong>Author: </strong>
-            <Link to={`/profile/${post?.user._id}`} >
+            <Link to={`/profile/${post?.user?._id}`} >
               <span>{post?.user?.username}</span>
             </Link>
           </div>
