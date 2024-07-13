@@ -7,9 +7,9 @@ function HeaderLeft({setToggle,toggle}) {
     <div className="header-left">
         <div className="header-logo">
         <img
-            src="./logoAs.jpeg"
+            src='./logoAs.jpeg'
             alt="as"
-            className="post-user-image"
+            className="logoimage"
           />
          
           <strong>AssalDev</strong>

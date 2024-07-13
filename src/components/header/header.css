@@ -8,7 +8,8 @@
     background-color: var(--blue-color);
     position: relative;
     z-index: 99;
-    border-bottom: 2px solid var(--white-color);
+    /* border-bottom: 2px solid var(--white-color); */
+    border-bottom: 1px solid #626262;
 }
 
 .post-user-image{
@@ -61,12 +62,19 @@ cursor: pointer;
     display: flex;
     align-items: center;
 }
-
+.logoimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 30px;
     font-weight: bold;
     color: var(--white-color);
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 
 .header-menu {
