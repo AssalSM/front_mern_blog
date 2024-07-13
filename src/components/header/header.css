@@ -11,6 +11,11 @@
     border-bottom: 2px solid var(--white-color);
 }
 
+.post-user-image{
+    width: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
 .header-right-user-info{
 display: flex;
 align-items: center;
@@ -61,7 +66,7 @@ cursor: pointer;
     font-size: 30px;
     font-weight: bold;
     color: var(--white-color);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .header-menu {
