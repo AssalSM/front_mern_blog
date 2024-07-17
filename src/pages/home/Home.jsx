@@ -23,7 +23,7 @@ const Home = () => {
         </div>
   </div> */}
       {/*  <Sidebar categories={categories} />  */}
-      <div className="home-latest-post">Latest Posts</div>
+      <div className="home-latest-post">wait please</div>
       <div className="home-container">
        {!posts ? <> <h1>  wait</h1></>   : <PostList posts={posts} /> }  
         {/* <Sidebar categories={categories} /> */}

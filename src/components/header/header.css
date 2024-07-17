@@ -182,18 +182,19 @@ cursor: pointer;
     }
 
     .header-logo {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     .header-right-link {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 17px;
-        padding: 5px 7px;
+        font-size: 10px;
+        padding: 5px ;
     }
 
     .header-menu {
+       
         margin-right: 10px;
     }
 }

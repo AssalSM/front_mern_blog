@@ -16,7 +16,7 @@ function HeaderLeft({setToggle,toggle}) {
         </div>
         <div onClick={() => setToggle(pre => !pre)} className="header-menu">
 
-         {toggle ?  <i className="bi bi-x-lg"></i> :  <i className="bi bi-list"></i>}
+        {toggle ?  <i className="bi bi-x-lg"></i> :  <i className="bi bi-list"></i>}
         </div>
       </div>
   )

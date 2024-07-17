@@ -3,9 +3,9 @@ import "./posts-page.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import PostList from "../../components/posts/PostList";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import Pagination from "../../components/pagination/Pagination";
-import { categories } from "../../dummyData";
+// import { categories } from "../../dummyData";
 import { fetchPosts } from "../../redux/apiCalls/postApiCall";
 
 const PostsPage = () => {
@@ -22,7 +22,7 @@ const PostsPage = () => {
     <>
       <section className="posts-page">
         <PostList posts={posts} />
-        <Sidebar categories={categories} />
+        {/* <Sidebar categories={categories} /> */}
       </section>
       <Pagination />
     </>
