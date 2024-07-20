@@ -44,6 +44,7 @@ const PostItem = ({ post }) => {
         <div className="reaction">
         
         <div className="likes">
+          <div className="like">
           {user && (
             <i
               onClick={() => dispatch(togglelikePosts(post?._id))}
@@ -54,6 +55,8 @@ const PostItem = ({ post }) => {
               }
             ></i>
           )}
+          </div>
+          
           <small>{post?.likes?.length} likes</small>
         </div>
         <Link className="post-item-link" to={`/posts/details/${post?._id}`}>

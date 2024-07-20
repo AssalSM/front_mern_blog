@@ -6,11 +6,11 @@ function HeaderLeft({setToggle,toggle}) {
   return (
     <div className="header-left">
         <div className="header-logo">
-        <img
+        {/* <img
             src='./logoAs.jpeg'
             alt="as"
             className="logoimage"
-          />
+          /> */}
          
           <strong>AssalDev</strong>
         </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 .post-list {
   display: flex;
   align-items: center;
@@ -102,11 +103,13 @@
 
 .post-item-category {
   /* background-color: var(--pumpkin-color); */
-  color: rgb(253, 253, 253);
+  color: rgb(240, 247, 181);
   /* padding: 2px 7px; */
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: 400;
   border-radius: 15px;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 25px;
+  /* font-weight: bold; */
   cursor: pointer;
 }
 
@@ -134,6 +137,10 @@
   border-radius: 5px;
   padding: 5px;
 }
+.post-item-link:hover {
+  /* background-color: var(--green-color); */
+  color: rgb(151, 150, 150);
+}
 .likes{
   color: white;
   font-size: 25px;
@@ -141,7 +148,8 @@
   align-items: center;
   flex-direction: column;
 }
-.likes:hover{
+
+.like:hover{
   color: rgb(151, 150, 150);
   cursor: pointer;
 }
@@ -151,10 +159,12 @@
   display: flex;
   justify-content: space-between;
 }
+
 @media (max-width: 820px) {
   .post-item {
-    padding: 0px;
+    padding: 17px;
     width: 95%;
+    border-radius: 5px;
   }
   
   .post-user-image {
@@ -170,8 +180,9 @@
 
 @media (max-width: 600px) {
   .post-item {
-    padding: 0px;
+    padding: 7px;
     width: 100%;
+    border-radius: 5px;
   }
   .post-user-image {
     width: 30px;
@@ -188,9 +199,18 @@
     font-weight: 400;
   }
   .post-item-category {
-    font-size: 25px;
+    font-size: 20px;
   }
   .post-itme-image {
     object-fit: cover;
+  }
+  .post-item-link {
+    /* background-color: var(--green-color); */
+    font-size: 15px;
+  }
+  .likes{
+    
+    font-size: 15px;
+
   }
 }

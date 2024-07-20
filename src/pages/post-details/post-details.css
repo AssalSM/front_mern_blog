@@ -112,6 +112,7 @@
     }
 
     .post-details-image {
+        height: auto;
         object-fit: cover;
     }
 }

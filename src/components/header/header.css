@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+
+
 .header {
     width: 100%;
     height: 80px;
@@ -74,7 +78,14 @@ cursor: pointer;
     font-size: 30px;
     font-weight: bold;
     color: var(--white-color);
-    text-decoration: underline;
+    
+   
+  /* font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal; */
+}
+.header-logo strong {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 .header-menu {
