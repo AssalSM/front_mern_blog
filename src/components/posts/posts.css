@@ -125,14 +125,31 @@
 }
 
 .post-item-link {
-  background-color: var(--green-color);
+  /* background-color: var(--green-color); */
   color: var(--white-color);
-  width: 100%;
+  
   display: block;
   text-align: center;
   font-size: 21px;
   border-radius: 5px;
   padding: 5px;
+}
+.likes{
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.likes:hover{
+  color: rgb(151, 150, 150);
+  cursor: pointer;
+}
+.reaction{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 820px) {
   .post-item {
